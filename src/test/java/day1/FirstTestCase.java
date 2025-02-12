@@ -13,6 +13,8 @@ import org.openqa.selenium.safari.SafariDriver;
  * 3. verify the title of the page "Google"
  * 4. close the browser
  * 
+ * multiple browsers
+ * 
  */
 
 public class FirstTestCase {
@@ -36,7 +38,7 @@ public class FirstTestCase {
         }
 
         // 4. close the browser
-        driver.close();
+        driver.quit();
     }
     
 }
