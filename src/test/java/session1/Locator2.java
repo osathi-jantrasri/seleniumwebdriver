@@ -1,4 +1,4 @@
-package day1;
+package session1;
 
 import java.time.Duration;
 
